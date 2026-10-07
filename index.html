@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kliko Masters biedt duurzame afvalophaling, containerverhuur en slimme afvaloplossingen voor woningen en bedrijven."
+    />
+    <title>Kliko Masters | Slimme afvaloplossingen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">K</span>
+          <span>Kliko Masters</span>
+        </div>
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+          <a href="#home">Home</a>
+          <a href="#diensten">Diensten</a>
+          <a href="#over-ons">Over ons</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-primary" href="#contact">Vraag offerte</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Vaste service • Duurzaam • Vertrouwd</p>
+            <h1>Afvalbeheer dat werkt voor jouw huishouden of bedrijf.</h1>
+            <p class="lead">
+              Kliko Masters helpt je eenvoudig met containerverhuur, ophaling,
+              recycling en praktische afvaloplossingen die tijd en stress besparen.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Plan afspraak</a>
+              <a class="button button-secondary" href="#diensten">Bekijk diensten</a>
+            </div>
+            <ul class="hero-points" aria-label="Voordelen">
+              <li>Snelle dienstverlening</li>
+              <li>Transparante prijzen</li>
+              <li>Duurzame aanpak</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Service overzicht">
+            <div class="stat">
+              <strong>24/7</strong>
+              <span>Beschikbaarheid</span>
+            </div>
+            <div class="stat">
+              <strong>500+</strong>
+              <span>Tevreden klanten</span>
+            </div>
+            <div class="stat">
+              <strong>98%</strong>
+              <span>Vervulling op tijd</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="diensten" class="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Onze diensten</p>
+            <h2>Alles voor een schoon en georganiseerd terrein.</h2>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="icon">♻️</div>
+              <h3>Containerverhuur</h3>
+              <p>
+                Kies de juiste container voor bouwafval, tuinrestafval en grote
+                opruimingen.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="icon">🧹</div>
+              <h3>Opruimen & ophalen</h3>
+              <p>
+                Snel, netjes en zonder gedoe. Wij halen het afval op en zorgen
+                voor een schone ruimte.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="icon">🏢</div>
+              <h3>Zakelijke oplossingen</h3>
+              <p>
+                Op maat gemaakte afvalmanagementservices voor kantoren, werkplaatsen
+                en kleine bedrijven.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="over-ons" class="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">Over ons</p>
+            <h2>Praktisch, betrouwbaar en gericht op resultaat.</h2>
+            <p>
+              Bij Kliko Masters combineren we snelheid met zorgvuldigheid. We helpen
+              particulieren en bedrijven met een efficiënte en duurzame oplossing voor
+              afvalbeheer, zonder onnodige complicaties.
+            </p>
+            <p>
+              Van kleine huishoudelijke klusjes tot grotere opruimacties: wij zorgen dat
+              de juiste stappen worden gezet en dat alles netjes en veilig wordt afgehandeld.
+            </p>
+          </div>
+
+          <div class="info-box">
+            <h3>Waarom kiezen voor Kliko Masters?</h3>
+            <ul>
+              <li>Persoonlijke service</li>
+              <li>Flexibele afspraken</li>
+              <li>Betere recycling en minder verspilling</li>
+              <li>Transparante communicatie</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Vraag vandaag nog een offerte aan.</h2>
+            <p>
+              Geef ons aan wat je nodig hebt en wij reageren snel met een passende oplossing.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <label>
+              Naam
+              <input type="text" name="naam" placeholder="Jouw naam" />
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" placeholder="jij@email.com" />
+            </label>
+            <label>
+              Bericht
+              <textarea name="bericht" rows="4" placeholder="Vertel ons waar je hulp bij nodig hebt..."></textarea>
+            </label>
+            <button type="submit" class="button button-primary">Verstuur</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Kliko Masters</p>
+        <p>Afvaloplossingen voor thuis en bedrijf</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
